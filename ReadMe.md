@@ -20,8 +20,9 @@
 
 ### 效果
 
-![image-20240105092602075](https://raw.githubusercontent.com/ZhuchaWenjiu/imgback/main/202401050926158.png)
+![image-20240105093156941](https://raw.githubusercontent.com/ZhuchaWenjiu/imgback/main/202401050931005.png)
 
 ### 说明
 
 此插件总是在**页面渲染**完成后才开始高亮
+标记单词不区分大小写，因此 **Electoral** 与 **electoral** 相同
