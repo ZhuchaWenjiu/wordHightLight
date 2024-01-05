@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Word Highlighter",
+    "version": "1.0",
+    "description": "Double-click on words to highlight them.",
+    "author": "zhuchawenjiu",
+    "permissions": ["activeTab", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "web_accessible_resources": [
+        "word.md"
+      ],
+    "commands": {
+      "highlightWord": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+H"
+        },
+        "description": "Highlight the selected word"
+      }
+    }
+  }
+  
